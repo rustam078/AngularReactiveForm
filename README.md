@@ -1,3 +1,26 @@
+1) Execute below commands in terminal
+
+$ npm install bootstrap --save
+
+$ npm install jquery --save
+
+$ npm install popper.js --save
+
+
+2) Add below styles and scripts in "angular.json" file
+
+....
+      "styles": [
+        "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "src/styles.css"
+      ],
+      "scripts": [
+          "node_modules/jquery/dist/jquery.min.js",
+          "node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ]
+.....
+
+
 # Modernreactiveform
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
